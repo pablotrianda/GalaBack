@@ -10,8 +10,9 @@ This script will make a backup from **postgres** database.
   * sqlite
  
 ## Installing
-  1. clone this repo: ```clone git@github.com:pablotrianda/GalaBack.git```
-  2. run install script: ```./install.sh``` 
+  1. clone this repo: ```git clone https://github.com/pablotrianda/GalaBack.git```
+  2. run install script: ```cd GalaBack/``` 
+  3. run install script: ```./install.sh``` 
   
 ## Usage
 * Make a backup:
@@ -23,5 +24,15 @@ This script will make a backup from **postgres** database.
 * Restore to specific backuop
 ```$galaback -r 20180101_22_18_some_file.sql```
  
+ ## Configuration's parameters
+ To configure the script modify the /config/config.cfg file
+
+- DATABASE_HOST="host"
+- DATABASE_NAME="schema"
+- POSTGRES_USER="postgres"
+- POSTGRES_PASS="postgres"
+- DATABASE_USER="schema_user"
+- DATABASE_PASS="schema_pass"
+
 
   
