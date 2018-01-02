@@ -1,8 +1,12 @@
 #!/bin/bash 
-#title           :galabacj.sh
+#title           :galaback.sh
 #description     :This script will make a backup from postgres database.
 #author		     :pablotrianda<pablotrianda@gmail.com>
 
+GALABACK_FOLDER="$HOME/.galaback"
+BACKUP_FOLDER="$GALABACK_FOLDER/backups"
+DATABASE_FOLDER="$BACKUP_FOLDER/db"
+DATABASE_FILE="database.db"
 GALABACK_FOLDER="$HOME/.galaback"
 
 source $GALABACK_FOLDER/config/config.cfg
