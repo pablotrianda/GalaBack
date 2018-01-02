@@ -11,7 +11,7 @@ This script will make a backup from **postgres** database.
  
 ## Installing
   1. clone this repo: ```clone git@github.com:pablotrianda/GalaBack.git```
-  2. run install script: ```$install.sh``` 
+  2. run install script: ```./install.sh``` 
   
 ## Usage
 * Make a backup:
