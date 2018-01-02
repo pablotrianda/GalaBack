@@ -3,13 +3,10 @@
 #description     :This script will make a backup from postgres database.
 #author		     :pablotrianda<pablotrianda@gmail.com>
 
-source ../config/config.cfg
-source ../db/script.cfg
-# echo "Config for the database name: $GALABACK_FOLDER" >&2
-# echo "Config for the database name: $DATABASE_NAME" >&2
-# echo "Config for the database host: $DATABASE_NAME" >&2
-# echo "Config for the database use: $DATABASE_USER" >&2
-# echo "Config for the database folder: $BACKUP_FOLDER" >&2
+GALABACK_FOLDER="$HOME/.galaback"
+
+source $GALABACK_FOLDER/config/config.cfg
+source $GALABACK_FOLDER/config/script.cfg
 
 TODAY_DATE=$(date +%Y%m%d_%H_%M)
 
